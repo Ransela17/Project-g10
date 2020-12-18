@@ -1,32 +1,140 @@
 
 /** 
  * ===================================================================
+ * General
+ * ------------------------------------------------------------------- 
+ */
+@font-face {
+    src: url(fonts/Assistant-VariableFont_wght.ttf);
+    font-family: Assi;
+}
+
+*{
+    font-family: Assi;
+    direction: rtl;
+}
+
+h1{
+    font-family: Assi;
+    font-weight: 700;
+    font-size: 64px;
+
+}
+
+h2{
+    font-family: Assi;
+    font-weight: bold;
+    font-size: 54px;
+    margin: 0;
+}
+h3{
+    font-family: Assi;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+p{
+    font-family: Assi;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+a{
+    font-family: Assi;
+    font-weight: 300;
+}
+
+::marker {
+    color: #ff000000;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/** 
+ * ===================================================================
  * Header
  * ------------------------------------------------------------------- 
  */
-header {
-    direction: rtl;
-    width: 100%;
-    background: #f1f1f1;
-    display: flex;
-}
+
 .Logo{
     width: 25%;
-}
-img#logo {
-    width: 10%;
+    float: right;
+    text-align: right;
 }
 
-nav {
-    width: 70%;
-    display: inline-flex;
-    align-items: center;
+img#logo {
+    width: 50%;
+    padding: 2% 22% 2% 0;
 
 }
 
 .Header {
     margin: 2%;
 }
+nav {
+    align-self: center;
+}
+ul.main-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0);
+    height: 93px;
+}
+  
+.main-nav li {
+    float: right;
+}
+
+.main-nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 36px 30px;
+    text-decoration: none;
+}
+
+ul.main-nav li a:hover:not(.active) {
+    background-color: #73b0b55e;
+}
+
+.active {
+    background-color: #4ca3af;
+}
+
+.fa{
+    font-size: x-large;
+}
+
+
+.hero{
+    background: url(images/bg-width.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    background-attachment: fixed;
+    min-height: 400px;
+}
+
+
+.row{
+    display: flex;
+    height: inherit;
+    align-items: baseline;
+}
+
+h1.page-title {
+    float: right;
+    border-bottom: solid;
+    width: 13%;
+    margin-top: auto;
+}
+
 
  /** 
  * ===================================================================
@@ -34,7 +142,7 @@ nav {
  * ------------------------------------------------------------------- 
  */
  footer {
-    background: #f1f1f1;
+    height: 150px;
     direction: rtl;
     display: flex;
 }
@@ -48,24 +156,34 @@ footer .col-1 {
 }
 
 footer .col-2 {
-    width: 15%;
+    width: 26%;
     align-self: center;
 }
 
 footer .col-3 {
+    width: 25%;
+    font-size: x-large;
+}
+.social-nav{
     display: flex;
-    left: 0;
-    bottom: 50px;
-    font-size: 36px;
-    margin: 0;
-    padding: 0;
+
 }
 
-footer .col-4{
-    width: 10%;
-    float: left;
-    left: 3%;
+.social-nav li a {
+    display: flex;
+    padding: 36px 30px;
 }
+
+.col-3.social .social-nav {
+    bottom: 0;
+    padding-top: 100px;}
+
+footer .col-4{
+    width: 25%;
+    float: left;
+}
+
+
  /** 
  * ===================================================================
  * Home Page
