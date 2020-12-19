@@ -122,7 +122,6 @@ ul.main-nav li a:hover:not(.active) {
     min-height: 400px;
 }
 
-
 .row{
     display: flex;
     height: inherit;
@@ -132,9 +131,8 @@ ul.main-nav li a:hover:not(.active) {
 h1.page-title {
     float: right;
     border-bottom: solid;
-    width: 15%;
+    width: 13%;
     margin-top: auto;
-    margin-right: 10px;
 }
 
 .load{
@@ -608,8 +606,15 @@ h4.fix {
  */
 
  /** 
+
  * ===================================================================
  * Contact Page
+ * ------------------------------------------------------------------- 
+ */
+
+/**
+ * ===================================================================
+ * contact us
  * ------------------------------------------------------------------- 
  */
 .contact{
@@ -695,3 +700,37 @@ img.map {
     height: 300px;
     margin-top: 30px;
 }
+
+/**
+* ===================================================================
+* error 404
+* ------------------------------------------------------------------- 
+*/
+.error {
+    margin-right: 540px;
+    margin-top: -15px;
+    text-align: center;
+}
+.hero2{
+    background: url(images/error-404.png);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    min-height: 550px;
+    text-align: center
+}
+.back {
+    background-color: dodgerblue;
+    border-radius: 10px;
+    color: white;
+    padding: 6px 14px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .back:hover {
+    background-color:skyblue;
+  }
+  .btn {
+      margin-top: 330px;
+  }
