@@ -1,38 +1,78 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="cssGallery.css">
-        <link rel="stylesheet" href="lightbox.min.css">
-        <script src="lightbox-plus-jquery.min.js"></script>
+        <meta charset="UTF-8">
+         <!-- Font Aswome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--css conection-->
+    <link rel="stylesheet" href="main.css">
+    <!---css gallery conection-->
+        <link rel="stylesheet" type="text/css" href="cssGallery.css">
+        <link rel="stylesheet" type="text/css" href="lightbox.min.css">
+        <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
     </head>
 <body>
+    <header>
+        <div class = "Logo">
+            <img  src="images/logo.png" alt=" logo" id="logo">
+        </div>
+        <nav>
+            <ul class="main-nav">
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="About.html">אודות</a></li>
+                <li><a href="Gallery.html">גלריות</a></li>
+                <li><a href="OpenStudio.html">Open Studio</a></li>
+                <li><a href="#">מוצרי טיפוח</a></li>
+                <li><a href="#">קביעת תורים</a></li>
+                <li><a href="Contact.html">צור קשר</a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fa fa-phone-square"></i></a></li>
+            </ul> 
+        </nav>
+        <div class="hero">
+            <div class="row">
+                <h1 class="page-title">אודות</h1>
+                <hr>
+            </div>
+        </div>
+
+    </header>
+
 <div class="container">
 <div class="gallery">
 
-<a href="images/img1.jpg" data-lightbox="salongallery"><img src= "images/img1small.jpg"></a>
-<a href="images/img2.jpg" data-lightbox="salongallery"><img src= "images/img2small.jpg"></a>
-<a href="images/img3.jpg" data-lightbox="salongallery"><img src= "images/img3small.jpg"></a>
-<a href="images/img4.jpg" data-lightbox="salongallery"><img src= "images/img4small.jpg"></a>
-<a href="images/img5.jpg" data-lightbox="salongallery"><img src= "images/img5small.jpg"></a>
-<a href="images/img6.jpg" data-lightbox="salongallery"><img src= "images/img6small.jpg"></a>
-<a href="images/img7.jpg" data-lightbox="salongallery"><img src= "images/img7small.jpg"></a>
-<a href="images/img8.jpg" data-lightbox="salongallery"><img src= "images/img8small.jpg"></a>
-<a href="images/img9.jpg" data-lightbox="salongallery"><img src= "images/img9small.jpg"></a>
-<a href="images/img10.jpg" data-lightbox="salongallery"><img src= "images/img10small.jpg"></a>
-<a href="images/img11.jpg" data-lightbox="salongallery"><img src= "images/img11small.jpg"></a>
-<a href="images/img12.jpg" data-lightbox="salongallery"><img src= "images/img12small.jpg"></a>
-<a href="images/img13.jpg" data-lightbox="salongallery"><img src= "images/img13small.jpg"></a>
-<a href="images/img14.jpg" data-lightbox="salongallery"><img src= "images/img14small.jpg"></a>
-<a href="images/img15.jpg" data-lightbox="salongallery"><img src= "images/img15small.jpg"></a>
-<a href="images/img16.jpg" data-lightbox="salongallery"><img src= "images/img16small.jpg"></a>
-<a href="images/img17.jpg" data-lightbox="salongallery"><img src= "images/img17small.jpg"></a>
-<a href="images/img18.jpg" data-lightbox="salongallery"><img src= "images/img18small.jpg"></a>
-<a href="images/img19.jpg" data-lightbox="salongallery"><img src= "images/img19small.jpg"></a>
-<a href="images/img20.jpg" data-lightbox="salongallery"><img src= "images/img20small.jpg"></a>
-<a href="images/img21.jpg" data-lightbox="salongallery"><img src= "images/img21small.jpg"></a>
-<a href="images/img22.jpg" data-lightbox="salongallery"><img src= "images/img22small.jpg"></a>
-<a href="images/img23.jpg" data-lightbox="salongallery"><img src= "images/img23small.jpg"></a>
-<a href="images/img24.jpg" data-lightbox="salongallery"><img src= "images/img24small.jpg"></a>
+<a href="images/img1.jpg" data-lightbox="mygallery"><img src= "images/img1small.jpg"></a>
+<a href="images/img2.jpg" data-lightbox="mygallery"><img src= "images/img2small.jpg"></a>
+<a href="images/img3.jpg" data-lightbox="mygallery"><img src= "images/img3small.jpg"></a>
+<a href="images/img4.jpg" data-lightbox="mygallery"><img src= "images/img4small.jpg"></a>
+<a href="images/img5.jpg" data-lightbox="mygallery"><img src= "images/img5small.jpg"></a>
+<a href="images/img6.jpg" data-lightbox="mygallery"><img src= "images/img6small.jpg"></a>
+<a href="images/img7.jpg" data-lightbox="mygallery"><img src= "images/img7small.jpg"></a>
+<a href="images/img8.jpg" data-lightbox="mygallery"><img src= "images/img8small.jpg"></a>
+<a href="images/img9.jpg" data-lightbox="mygallery"><img src= "images/img9small.jpg"></a>
+<a href="images/img10.jpg" data-lightbox="mygallery"><img src= "images/img10small.jpg"></a>
+<a href="images/img11.jpg" data-lightbox="mygallery"><img src= "images/img11small.jpg"></a>
+<a href="images/img12.jpg" data-lightbox="mygallery"><img src= "images/img12small.jpg"></a>
+<a href="images/img13.jpg" data-lightbox="mygallery"><img src= "images/img13small.jpg"></a>
+<a href="images/img14.jpg" data-lightbox="mygallery"><img src= "images/img14small.jpg"></a>
+<a href="images/img15.jpg" data-lightbox="mygallery"><img src= "images/img15small.jpg"></a>
+<a href="images/img16.jpg" data-lightbox="mygallery"><img src= "images/img16small.jpg"></a>
+<a href="images/img17.jpg" data-lightbox="mygallery"><img src= "images/img17small.jpg"></a>
+<a href="images/img18.jpg" data-lightbox="mygallery"><img src= "images/img18small.jpg"></a>
+<a href="images/img19.jpg" data-lightbox="mygallery"><img src= "images/img19small.jpg"></a>
+<a href="images/img20.jpg" data-lightbox="mygallery"><img src= "images/img20small.jpg"></a>
+<a href="images/img21.jpg" data-lightbox="mygallery"><img src= "images/img21small.jpg"></a>
+<a href="images/img22.jpg" data-lightbox="mygallery"><img src= "images/img22small.jpg"></a>
+<a href="images/img23.jpg" data-lightbox="mygallery"><img src= "images/img23small.jpg"></a>
+<a href="images/img24.jpg" data-lightbox="mygallery"><img src= "images/img24small.jpg"></a>
+<a href="images/img25.jpg" data-lightbox="mygallery"><img src= "images/img25small.jpg"></a>
+<a href="images/img26.jpg" data-lightbox="mygallery"><img src= "images/img26small.jpg"></a>
+<a href="images/img27.jpg" data-lightbox="mygallery"><img src= "images/img27small.jpg"></a>
+<a href="images/img28.jpg" data-lightbox="mygallery"><img src= "images/img28small.jpg"></a>
+<a href="images/img29.jpg" data-lightbox="mygallery"><img src= "images/img29small.jpg"></a>
+<a href="images/img30.jpg" data-lightbox="mygallery"><img src= "images/img30small.jpg"></a>
 
 </div>
 </div>
