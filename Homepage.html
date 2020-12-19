@@ -1,6 +1,138 @@
-<!DocType html>
+<!DOCTYPE html>
 <html>
+<head>
 
+    <!-- Font Aswome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--css conection-->
+    <link rel="stylesheet" href="main.css">
 
+   
 
+</head>
+
+    <body>
+     <header>
+        <div class = "Logo">
+            <img  src="images/logo.png" alt=" logo" id="logo">
+        </div>
+        <nav>
+            <ul class="main-nav">
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="About.html">אודות</a></li>
+                <li><a href="Gallery.html">גלריות</a></li>
+                <li><a href="OpenStudio.html">Open Studio</a></li>
+                <li><a href="#">מוצרי טיפוח</a></li>
+                <li><a href="#">קביעת תורים</a></li>
+                <li><a href="Contact.html">צור קשר</a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fa fa-phone-square"></i></a></li>
+            </ul> 
+        </nav>
+    
+        <div class="slider">
+            <div class="load">
+            </div>
+            <div class="content">
+                <div class="print-text">
+                    <h1>ירין ששון עיצוב שיער</h1>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </header>
+        <div class="home-about">
+            <div class="right">
+                <div class="img-home-about">
+                     <img  src="images/home-slider.jpg" alt="sorry there is a problem" id="about_pic">
+                </div>
+            </div>
+            <div class="left">
+                <h2 class="title_about">אודות</h2>
+                <p> מספרת יאיר ששון היא מספרה בבאר שבע עם יצירתיות, סגנון, חדשנות, סטייל ואמנות.<br>
+                    מספרה משרתת נאמנה אין ספור לקוחות המגיעים אלינו גם מהסביבה וגם ממרחק.<br><br>
+                    מספרת יאיר ששון מתמחה בעיצוב שיער, החלקות שיער, תוספות שיער, צבע, גוונים, 
+                    שטיפות, סלסולים, הבהרות, טיפולי שיער ועוד.<br>
+                    לצד הניסיון הרב שנצבר במשך 
+                    השנים, אנחנו מקפידים כל הזמן להתעדכן ולהוביל. </p> 
+                <a href="About.html" class="button">קרא עוד
+                    <i class="fa fa-arrow-left"></i>
+                </a> 
+            </div>
+        </div>
+        <div class="home-services">
+            <div class="container">
+                <div class="services">
+                    <h2 class="title_services">השירותים שלנו</h2>
+                </div>
+                <div class="box">
+                    <h2>01</h2>
+                    <h3>כלות</h3>
+                    <p> וגם ממרחק.<br><br>
+                        מספרת יאיר ששון מתמחה בעיצוב שיער, החלקות שיער, תוספות שיער, צבע, גוונים, 
+                        שטיפות, סלסולים, הבהרות, טיפולי שיער ועוד.
+                        לצד הניסיון הרב שנצבר במשך 
+                        השנים, אנחנו מקפידים כל הזמן להתעדכן ולהוביל.
+                </div>
+                <div class="box">
+                    <h2>02</h2>
+                    <h3>כלות</h3>
+                    <p> וגם ממרחק.<br><br>
+                        מספרת יאיר ששון מתמחה בעיצוב שיער, החלקות שיער, תוספות שיער, צבע, גוונים, 
+                        שטיפות, סלסולים, הבהרות, טיפולי שיער ועוד.
+                        לצד הניסיון הרב שנצבר במשך 
+                        השנים, אנחנו מקפידים כל הזמן להתעדכן ולהוביל.
+                </div>
+                <div class="box">
+                    <h2>03</h2>
+                    <h3>כלות</h3>
+                    <p> וגם ממרחק.<br>
+                        מספרת יאיר ששון מתמחה בעיצוב שיער, החלקות שיער, תוספות שיער, צבע, גוונים, 
+                        שטיפות, סלסולים, הבהרות, טיפולי שיער ועוד.
+                        לצד הניסיון הרב שנצבר במשך 
+                        השנים, אנחנו מקפידים כל הזמן להתעדכן ולהוביל.
+                    </p>
+                </div>  
+            </div>
+        </div>
+        <div class="home-gallery">
+            <!-- Photo grid -->
+            <div class="photo-row">
+                <div class="photo-col">
+                    <img src="img1small.jpg" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
+                </div>
+
+                <div class="photo-col">
+                    <img src="img1small.jpg" style="width:100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
+                </div>
+                
+                <div class="photo-col">
+                    <img src="img1small.jpg" style="width:100%" onclick="onClick(this)" alt="Canoeing again">   
+                </div>
+                <div class="photo-col">
+                    <img src="img1small.jpg" style="width:100%" onclick="onClick(this)" alt="Canoeing again">
+                </div>
+            </div>
+    
+            <!-- Modal for full size images on click-->
+            <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+                <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+                <div class="full-image animate-zoom">
+                <img id="img01" class="w3-image">
+                <p id="caption"></p>
+                </div>
+            </div>
+        </div>
+        <script>
+            // Modal Image Gallery
+            function onClick(element) {
+                document.getElementById("img01").src = element.src;
+                document.getElementById("modal01").style.display = "block";
+                var captionText = document.getElementById("caption");
+                captionText.innerHTML = element.alt;
+            }
+        </script>
+    </body>
 </html>
