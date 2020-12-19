@@ -131,8 +131,9 @@ ul.main-nav li a:hover:not(.active) {
 h1.page-title {
     float: right;
     border-bottom: solid;
-    width: 13%;
+    width: 15%;
     margin-top: auto;
+    margin-right: 10px;
 }
 
 
@@ -211,10 +212,86 @@ footer .col-4{
  * Open Studio
  * ------------------------------------------------------------------- 
  */
+.contact{
+    display: flex;
+}
 
+.input {
+    width: 100%;
+}
 
- /** 
- * ===================================================================
- * Contact
- * ------------------------------------------------------------------- 
- */
+.input input {
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 80%;
+    border:0;
+    outline: none !important;
+    padding: 10px;
+    margin: 3%;
+    display: inline-block;
+    background: #ffffff;
+}
+
+.text-area textarea{
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none !important;
+    padding: 10px;
+    margin: 3%;
+    background: #fff;
+
+}
+input[type="text"], input[type="email"], input[type="tel"], input[type="text-area"] {
+    border: 1px solid black;
+}
+
+.contactform{
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    border-radius: 50px;
+    width: 45%;
+    margin: 15px;
+    padding: 20px;
+    font-weight: bold;
+    text-align:center;
+}
+.contact button{
+    width: 160px;
+    height: 40px;
+    border-radius: 14px;
+    font-size: 20px;
+    outline: none;   
+    margin-top: 20px; 
+}
+.submitbutton{
+    background-color: #0b0b0b;
+    color:#ffffff;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+.contact_ways {
+    width: 50%;
+    grid-column: 2 /span 2;
+    grid-row: 2;
+    margin-top: 35px;
+    text-align:center;
+}
+p.data {
+    width: 40%;
+}
+.fa-lg, .fa-envelope-o, i.fa.fa-map-marker {
+    width: 10%;
+    align-self: center;
+}
+.icon1, .icon2, .icon3 {
+    display: flex;
+    width: 100%;
+}
+img.map {
+    width: 450px;
+    height: 300px;
+    margin-top: 30px;
+}
