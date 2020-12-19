@@ -102,10 +102,10 @@ ul.main-nav li a:hover:not(.active) {
     background-color: #73b0b55e;
 }
 
-.active {
+/*.active {
     background-color: #4ca3af;
 }
-
+*/
 .fa{
     font-size: x-large;
 }
