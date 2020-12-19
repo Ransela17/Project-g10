@@ -103,7 +103,7 @@ ul.main-nav li a:hover:not(.active) {
     background-color: #73b0b55e;
 }
 
-.active {
+.active-page {
     background-color: #4ca3af;
 }
 
