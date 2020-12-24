@@ -19,7 +19,7 @@
         </div>
         <nav>
             <ul class="main-nav">
-                <li><a class="active-page" href="#home">Home</a></li>
+                <li><a class="active" href="#home">Home</a></li>
                 <li><a href="About.html">אודות</a></li>
                 <li><a href="Gallery.html">גלריות</a></li>
                 <li><a href="OpenStudio.html">Open Studio</a></li>
@@ -125,16 +125,16 @@
                 </div>
             </div>
         </div>
-        <div class="slideshow-container">
-            <div class="mySlides">
+        <div class="quotes-container">
+            <div class="quoteSlides">
               <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
               <p class="author">- John Keats</p>
             </div>
-            <div class="mySlides">
+            <div class="quoteSlides">
               <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
               <p class="author">- Ernest Hemingway</p>
             </div>
-            <div class="mySlides">
+            <div class="quoteSlides">
               <q>I have not failed. I've just found 10,000 ways that won't work.</q>
               <p class="author">- Thomas A. Edison</p>
             </div>     
@@ -159,8 +159,7 @@
             
             function showSlides(n) {
               var i;
-              var slides = document.getElementsByClassName("mySlides");
-              var dots = document.getElementsByClassName("dot");
+              var slides = document.getElementsByClassName("quoteSlides");
               if (n > slides.length) {slideIndex = 1}    
               if (n < 1) {slideIndex = slides.length}
               for (i = 0; i < slides.length; i++) {
