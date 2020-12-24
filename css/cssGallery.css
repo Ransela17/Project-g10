@@ -24,32 +24,3 @@
 }
 
 
-/*.gallery {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 5vw);
-  background-color:rgb(159, 29, 90, 0.6);
-  border-radius: 10px;
-  padding: 0.25em;
-  margin: 35px;
-  grid-gap: 0.25em;
-}
-*
-.gallery img{
-  
-  border: 1px solid #ddd;
-  border-radius: 3px;
-  object-fit: cover;
-  box-shadow: 0 0 0 #0000;
-  opacity: 0.8;
-  filter: grayscale(100%);
-  transition: 1s;
-  width: 100%;
-  height: 100%;
-}
-.gallery img:hover{
-  filter: grayscale(0);
-  transform: scale(1.1);
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-
