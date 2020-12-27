@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+ <head>
 
     <!-- Font Aswome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -8,7 +8,7 @@
     <!--css conection-->
     <link rel="stylesheet" href="main.css">
 
-</head>
+ </head>
 
     <body>
         <header>
@@ -30,6 +30,8 @@
             </ul> 
         </nav>
      </header>
+
+     <form action="/todo" method="POST">
      <div class="login-wrap">
         <div class="login-html">
             <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">התחברות</label>
@@ -38,14 +40,14 @@
                 <div class="sign-in-htm">
                     <div class="group">
                         <label for="user" class="label">שם משתמש</label>
-                        <input id="user" type="text" class="input">
+                        <input id="user" type="text" name="user" class="input">
                     </div>
                     <div class="group">
                         <label for="pass" class="label">סיסמא</label>
-                        <input id="pass" type="password" class="input" data-type="password">
+                        <input id="pass" type="password" name="pass" class="input" data-type="password">
                     </div>
                     <div class="group">
-                        <input id="check" type="checkbox" class="check" checked>
+                        <input id="check" type="checkbox" name="check" class="check" checked>
                         <label for="check"><span class="icon"></span>זכור אותי</label>
                     </div>
                     <div class="group">
@@ -56,22 +58,24 @@
                         <a href="#forgot">שכחת סיסמא?</a>
                     </div>
                 </div>
+     </form>
+            <form action="/todo" method="POST"> 
                 <div class="sign-up-htm">
                     <div class="group">
                         <label for="user" class="label">שם משתמש</label>
-                        <input id="user" type="text" class="input">
+                        <input id="user" type="text" name="user" class="input">
                     </div>
                     <div class="group">
                         <label for="pass" class="label">סיסמא</label>
-                        <input id="pass" type="password" class="input" data-type="password">
+                        <input id="pass" type="password" name="pass" class="input" data-type="password">
                     </div>
                     <div class="group">
                         <label for="pass" class="label">חזור שנית</label>
-                        <input id="pass" type="password" class="input" data-type="password">
+                        <input id="pass" type="password" name="pass" class="input" data-type="password">
                     </div>
                     <div class="group">
-                        <label for="pass" class="label">אימייל</label>
-                        <input id="pass" type="text" class="input">
+                        <label for="email" class="label">אימייל</label>
+                        <input id="email" type="text" name="email" class="input">
                     </div>
                     <div class="group">
                         <input type="submit" class="button" value="ביצוע רישום">
@@ -80,9 +84,10 @@
                     <div class="foot-lnk">
                         <label for="tab-1">רשום לאתר?</a>
                     </div>
+                  </div>
+                 </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    </body>
+               </div>
+             </form>
+ </body>
 </html>
