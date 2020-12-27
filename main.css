@@ -622,15 +622,10 @@ q {font-style: italic;}
  * ------------------------------------------------------------------- 
  */
 
- /** 
- * ===================================================================
- * Contact Page
- * ------------------------------------------------------------------- 
- */
 
 /**
  * ===================================================================
- * contact us
+ * Contact Us Page
  * ------------------------------------------------------------------- 
  */
 .contact{
@@ -902,4 +897,90 @@ a{color:inherit;text-decoration:none}
 }
 .foot-lnk{
 	text-align:center;
+}
+
+
+.OpenStudio_wrap{
+    display: flex;
+    padding: 4%;
+}
+
+.content-right {
+    width: 50%;
+}
+
+.content-left{
+    width: 50%;
+}
+
+.wrap_imgs{
+    display:flex;
+    place-content: center;
+}
+
+img.imgs {
+    padding: 20PX;
+    width: 200px;
+}
+
+.op_reg{
+    background: #FFFFFF;
+    border-radius: 4px;
+    text-align: right;
+    line-height: 55px;
+    height: 55px;
+    width: 100%;
+    display: block;
+    border: 0;
+    padding-right: 10px;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+#reg{
+    border: 0;
+    border-radius: 4px;
+    appearance: none;
+    display: block;
+    background: dodgerblue;
+    color: #fff;
+    height: 45px;
+    width: 150px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#register{
+    width: 450px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: right;
+}
+
+.op_wrap{
+    background: #F1F1F1;
+    padding: 70px 0;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.op_grid{
+    width: 1180px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+section article h2{
+    font-size: 46px;
+}
+
+.op_wrap .op_grid h2 {
+    color: dodgerblue;
+} 
+
+.op_wrap .op_grid p {
+    color: dodgerblue;
 }
