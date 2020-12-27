@@ -621,11 +621,36 @@ q {font-style: italic;}
  * Gallery
  * ------------------------------------------------------------------- 
  */
-
+ .gallerycontainer{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+  }
+  .gallery{
+    margin: 10px 50px;
+  }
+  
+  .gallery img{
+    height: 200px;
+    margin: 10px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+  }
+  .gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+  }
+  .gallery a:hover{
+    opacity: 0.5;
+  }
+  
+  
 
 /**
  * ===================================================================
- * Contact Us Page
+ * Contact Us
  * ------------------------------------------------------------------- 
  */
 .contact{
@@ -672,7 +697,7 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="text-are
     font-weight: bold;
     text-align:center;
 }
-.contact button {
+.submitbutton {
     width: 160px;
     height: 40px;
     border-radius: 14px;
@@ -683,7 +708,7 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="text-are
     background: transparent;
 }
 
-.contact button:hover{
+.submitbutton:hover{
     background-color: black;
     color: white;
 }
@@ -761,11 +786,12 @@ a{color:inherit;text-decoration:none}
 
 .login-wrap{
 	width:100%;
-	margin:auto;
-	max-width:525px;
-	min-height:670px;
+    margin-top: 40px;
+    margin-right: 430px;
+	max-width:500px;
+	min-height:600px;
 	position:relative;
-	background:url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat center;
+	background:url(images/Background22.jpg) no-repeat fixed center;
 	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
 }
 .login-html{
@@ -773,7 +799,7 @@ a{color:inherit;text-decoration:none}
 	height:100%;
 	position:absolute;
 	padding:90px 70px 50px 70px;
-	background:rgba(40,57,101,.9);
+	background:rgba(56, 61, 73, 0.9);
 }
 .login-html .sign-in-htm,
 .login-html .sign-up-htm{
@@ -833,7 +859,7 @@ a{color:inherit;text-decoration:none}
 	background:rgba(255,255,255,.1);
 }
 .login-form .group input[data-type="password"]{
-	text-security:circle;
+
 	-webkit-text-security:circle;
 }
 .login-form .group .label{
@@ -892,11 +918,12 @@ a{color:inherit;text-decoration:none}
 
 .hr{
 	height:2px;
-	margin:60px 0 50px 0;
+	margin:30px 0 30px 0;
 	background:rgba(255,255,255,.2);
 }
 .foot-lnk{
-	text-align:center;
+    margin-bottom: 20px;
+    text-align:center;
 }
 
 
@@ -984,3 +1011,49 @@ section article h2{
 .op_wrap .op_grid p {
     color: dodgerblue;
 }
+
+  /**
+* ===================================================================
+* Application-making an appointment
+* ------------------------------------------------------------------- 
+*/
+
+.appStore{ 
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;  
+}
+.googlePlay{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+      
+.googlePlay:hover, .appStore:hover {
+        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+      }
+
+.appTitle{
+    width: 100%;
+    text-align: center;
+    padding: 3%;
+}
+
+.appLeft{
+    width: 50%;
+    display: flex;
+    float: left;
+    padding: 3%;
+}
+
+.appRight{
+    width: 50%;
+    display: flex;
+    float: right;
+    padding: 3%;
+    direction: ltr;
+}
+
+
