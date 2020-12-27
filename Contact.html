@@ -38,21 +38,20 @@
     </header>
     <div class="contact">
         <div class="contactform">
-            <h4><i> ליצירת קשר עם המספרה יש להשאיר פרטים ונחזור אליכם בהקדם!</i></h4>
-            <form>
+            <h4> ליצירת קשר עם המספרה יש להשאיר פרטים ונחזור אליכם בהקדם!</h4>
+            <form action="/todo" method="GET">
                 <div class="input">
-                    <input type="text" placeholder="שם פרטי">
-                    <input type="text" placeholder="שם משפחה">
+                    <input type="text" id="fname" name="firstname" placeholder="שם פרטי">
+                    <input type="text" id="lname" name="lastname" placeholder="שם משפחה">
                 </div>
                 <div class="input">
-                    <input type="tel" placeholder="טלפון">
-                    <input type="email" placeholder="כתובת מייל">
+                    <input type="tel" id="tel" name="phonenumber" placeholder="טלפון">
+                    <input type="email" id="email" name="email" placeholder="כתובת מייל">
                 </div>
                 <div class="text-area">
                     <textarea rows="4" placeholder="הודעה"></textarea>
                 </div>
-                <!-------------button SEND MESSAGE----------------->
-                <button type="submit" class="submitbutton">שליחה</button>
+                <input type="submit" class="submitbutton" value="שליחה">
             </form>
         </div>
 
