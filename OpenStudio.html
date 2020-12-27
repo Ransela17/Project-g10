@@ -85,10 +85,10 @@
         <div class="op_grid">
             <h2>טופס הרשמה</h2>
             <p>אנא מלא את כל הפרטים הנדרשים</p>
-            <form id="register" name="register-form">
-                <input class="op_reg" type="text" name="name" placeholder="שם מלא" required="">
-                <input class="op_reg" type="text" name="phone" placeholder="טלפון" required="">
-                <input class="op_reg" type="email" name="email" placeholder="כתובת אימייל">
+            <form id="register" name="register-form" action="/todo" method="GET">
+                <input class="op_reg" type="text" id="fullname"name="fullname" placeholder="שם מלא" required="">
+                <input class="op_reg" type="text" id="tel" name="phone" placeholder="טלפון" required="">
+                <input class="op_reg" type="email" id="email" name="email" placeholder="כתובת אימייל">
                 <input id="reg" type="submit" value="הרשמה">
             </form>
         </div>
