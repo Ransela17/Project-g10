@@ -950,6 +950,7 @@ a{color:inherit;text-decoration:none}
 */
 
 .OpenStudio_wrap{
+    width: 100%;
     display: flex;
     padding: 4%;
 }
@@ -993,12 +994,17 @@ img.imgs {
     border-radius: 4px;
     appearance: none;
     display: block;
-    background: dodgerblue;
+    background: #0f4675;
     color: #fff;
     height: 45px;
     width: 150px;
     margin: auto;
     margin-top: 40px;
+}
+
+#reg:hover{
+    background: cadetblue;
+    color: black;
 }
 
 #register{
