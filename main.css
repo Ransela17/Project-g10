@@ -556,6 +556,7 @@ q {font-style: italic;}
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
+    padding: 3%;
 }
 
 .Title_about_page h2{
@@ -584,39 +585,21 @@ q {font-style: italic;}
 .TextRight{
     width: 50%;
 }
+
 .TextRight p{
     font-style: normal !important;
     letter-spacing: 0 !important;
     text-align: right;
     direction: rtl;
     line-height: 28px;
-    margin: 0 0 10px;
+  
     font-size: 18px;
     width: 80%;
 }
 
 .aboutLeft img{
     width: 70%;
-}
-
-
-.title_about.about {
-    margin: auto;
-    text-align: center;
-    border-bottom: solid;
-    width: 24%;
-}
-
-.img_title {
-    font-size: xx-large;
-    text-align-last: center;
-    width: -webkit-fill-available;
-}
-
-.barber_srvis {
-    display: flex;
-    padding: 0;
-    margin-top: 0;
+    margin-top: -45px;
 }
 
 .table_days {
@@ -631,17 +614,7 @@ q {font-style: italic;}
     margin: auto;
     padding-left: 30px;
     padding-right: 30px;
-    border-radius: 43px;
     background: #c76a6a;
-}
-
-.rap_img{
-    background-color: #4ca3af;
-    padding: 3%;
-}
-
-.rap-days {
-    padding: 3%;
 }
 
 .day.not_working {
@@ -656,12 +629,6 @@ q {font-style: italic;}
    color:#fff;
 }
 
-.hours_rap{
-    background-color: #7cc7ce5e;
-
-}
-
-
  /** 
  * ===================================================================
  * Gallery
@@ -669,7 +636,7 @@ q {font-style: italic;}
  */
  .gallerycontainer{
     text-align: center;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 0px;
     display: flex;
   }
