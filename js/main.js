@@ -27,3 +27,12 @@ function normalImg(x) {
 }
 
 
+
+function changepic1(x) {
+  x.src ="images/about-1.jpg" ;
+}
+
+function changpic2(x) {
+  x.src ="images/about-2.jpg";
+}
+
