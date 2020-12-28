@@ -1009,6 +1009,10 @@ section article h2{
 .hover:hover{
     color: dodgerblue;
 }
+
+.page-tetle:hover{
+    color: dodgerblue;
+}
   /**
 * ===================================================================
 * Application-making an appointment
