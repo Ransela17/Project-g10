@@ -400,7 +400,7 @@ a.button:hover {
 }
 .container .box h3{
     position: relative;
-    font-size: 64px;
+    font-size: 55px;
     top: 50px;
     z-index: 2;
     color: #333;
@@ -629,6 +629,11 @@ q {font-style: italic;}
     background: #c76a6a;
 }
 
+.day:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
 .day.not_working {
     background: #18444c;
 }
@@ -640,6 +645,8 @@ q {font-style: italic;}
    text-align: center;
    color:#fff;
 }
+
+
 
  /** 
  * ===================================================================
