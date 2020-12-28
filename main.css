@@ -198,7 +198,7 @@ footer {
     height: 200px;
     direction: rtl;
     display: flex;
-    background-color: #78aad57a
+    background-color: cadetblue;
 }
 
 footer .col-1 {
@@ -215,7 +215,6 @@ footer .col-1 {
 footer .col-2 {
     width: 26%;
     text-align: center;
-    background-color: cadetblue;
 }
 
 footer .col-3 {
