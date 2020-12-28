@@ -39,19 +39,15 @@
     <div class="contact">
         <div class="contactform">
             <h4> ליצירת קשר עם המספרה יש להשאיר פרטים ונחזור אליכם בהקדם!</h4>
-            <form action="/todo" method="GET">
-                <div class="input">
-                    <input type="text" id="fname" name="firstname" placeholder="שם פרטי">
-                    <input type="text" id="lname" name="lastname" placeholder="שם משפחה">
-                </div>
-                <div class="input">
-                    <input type="tel" id="tel" name="phonenumber" placeholder="טלפון">
-                    <input type="email" id="email" name="email" placeholder="כתובת מייל">
-                </div>
+            <form id="register" action="/todo" method="GET">
+                    <input class="op_reg" type="text" id="fname" name="firstname" placeholder="שם פרטי">
+                    <input class="op_reg" type="text" id="lname" name="lastname" placeholder="שם משפחה">
+                    <input class="op_reg" type="tel" id="tel" name="phonenumber" placeholder="טלפון">
+                    <input class="op_reg" type="email" id="email" name="email" placeholder="כתובת מייל">
                 <div class="text-area">
                     <textarea rows="4" placeholder="הודעה"></textarea>
                 </div>
-                <input type="submit" class="submitbutton" value="שליחה">
+                <input id="reg" type="submit" value="שליחה">
             </form>
         </div>
 

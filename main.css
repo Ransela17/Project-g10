@@ -198,7 +198,7 @@ footer {
     height: 200px;
     direction: rtl;
     display: flex;
-    background-color: #78aad57a
+    background-color: cadetblue;
 }
 
 footer .col-1 {
@@ -215,7 +215,6 @@ footer .col-1 {
 footer .col-2 {
     width: 26%;
     text-align: center;
-    background-color: cadetblue;
 }
 
 footer .col-3 {
@@ -687,14 +686,14 @@ q {font-style: italic;}
 }
 
 .text-area textarea{
-    width: 80%;
-    border-radius: 10px;
+    width: 100%;
+    border-radius: 4px;
     border: 1px solid black;
     outline: none !important;
     padding: 10px;
-    margin: 3%;
     background: #fff;
-
+    font-size: 16px;
+    margin-bottom: 12px;
 }
 input[type="text"], input[type="email"], input[type="tel"], input[type="text-area"] {
     border: 1px solid black;
@@ -709,21 +708,6 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="text-are
     padding: 20px;
     font-weight: bold;
     text-align:center;
-}
-.submitbutton {
-    width: 160px;
-    height: 40px;
-    border-radius: 14px;
-    font-size: 20px;
-    margin-top: 20px;
-    border: 2px solid;
-    border-color: black;
-    background: transparent;
-}
-
-.submitbutton:hover{
-    background-color: black;
-    color: white;
 }
 .contact_ways {
     width: 50%;
@@ -933,6 +917,7 @@ a{color:inherit;text-decoration:none}
 */
 
 .OpenStudio_wrap{
+    width: 100%;
     display: flex;
     padding: 4%;
 }
@@ -976,12 +961,17 @@ img.imgs {
     border-radius: 4px;
     appearance: none;
     display: block;
-    background: dodgerblue;
+    background: #0f4675;
     color: #fff;
     height: 45px;
     width: 150px;
     margin: auto;
     margin-top: 40px;
+}
+
+#reg:hover{
+    background: cadetblue;
+    color: black;
 }
 
 #register{
@@ -1020,6 +1010,10 @@ section article h2{
 }
 
 .hover:hover{
+    color: dodgerblue;
+}
+
+.page-tetle:hover{
     color: dodgerblue;
 }
   /**

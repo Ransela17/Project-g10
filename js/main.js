@@ -22,8 +22,8 @@ function bigImg(x) {
 }
 
 function normalImg(x) {
-  x.style.height = "232px";
-  x.style.width = "212px";
+  x.style.height = "220px";
+  x.style.width = "220px";
 }
 
 // ----------------------
