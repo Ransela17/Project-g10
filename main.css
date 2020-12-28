@@ -153,7 +153,7 @@ h1.page-title {
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    animation: slide 18s infinite;
+    animation: slide 25s infinite;
 }
 
 .content{
@@ -187,19 +187,6 @@ h1.page-title {
     20% {
         background-image: url('images/home-slider.jpg');
     }
-    40% {
-        background-image: url('images/Background.jpg');
-    }
-    60% {
-        background-image: url('images/Background1.jpg');
-    }
-    80% {
-        background-image: url('images/Background2.jpg');
-    }
-    100% {
-        background-image: url('images/home-slider.jpg');
-    }
-
 }
 
  /** 
@@ -400,7 +387,7 @@ a.button:hover {
 }
 .container .box h3{
     position: relative;
-    font-size: 64px;
+    font-size: 55px;
     top: 50px;
     z-index: 2;
     color: #333;
@@ -568,7 +555,6 @@ q {font-style: italic;}
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
-    padding: 3%;
 }
 
 .Title_about_page h2{
@@ -597,21 +583,39 @@ q {font-style: italic;}
 .TextRight{
     width: 50%;
 }
-
 .TextRight p{
     font-style: normal !important;
     letter-spacing: 0 !important;
     text-align: right;
     direction: rtl;
     line-height: 28px;
-  
+    margin: 0 0 10px;
     font-size: 18px;
     width: 80%;
 }
 
 .aboutLeft img{
     width: 70%;
-    margin-top: -45px;
+}
+
+
+.title_about.about {
+    margin: auto;
+    text-align: center;
+    border-bottom: solid;
+    width: 24%;
+}
+
+.img_title {
+    font-size: xx-large;
+    text-align-last: center;
+    width: -webkit-fill-available;
+}
+
+.barber_srvis {
+    display: flex;
+    padding: 0;
+    margin-top: 0;
 }
 
 .table_days {
@@ -629,6 +633,11 @@ q {font-style: italic;}
     background: #c76a6a;
 }
 
+.day:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
 .day.not_working {
     background: #18444c;
 }
@@ -640,6 +649,8 @@ q {font-style: italic;}
    text-align: center;
    color:#fff;
 }
+
+
 
  /** 
  * ===================================================================
@@ -1015,11 +1026,11 @@ section article h2{
 }
 
 .op_wrap .op_grid h2 {
-    color: dodgerblue;
+    color: black;
 } 
 
 .op_wrap .op_grid p {
-    color: dodgerblue;
+    color: black;
 }
 
 .hover:hover{
