@@ -26,13 +26,16 @@ function normalImg(x) {
   x.style.width = "220px";
 }
 
+// ----------------------
+// about
+//-----------------------
 
 
 function changepic1(x) {
-  x.src ="images/about-1.jpg" ;
+  x.src ="images/Yarin1.jpg" ;
 }
 
 function changpic2(x) {
-  x.src ="images/about-2.jpg";
+  x.src ="images/Yarin2.jpg";
 }
 
