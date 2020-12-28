@@ -634,19 +634,9 @@ q {font-style: italic;}
     background: #c76a6a;
 }
 
-<<<<<<< HEAD
 .day:hover{
     filter: grayscale(0);
     transform: scale(1.1);
-=======
-.rap_img{
-    background-color: #4ca3af;
-    padding: 3%;
-}
-
-.rap-days {
-    padding: 3%;
->>>>>>> 89cbb98b981cd2831f71fcc58e0ad6567a290359
 }
 
 .day.not_working {
@@ -661,13 +651,6 @@ q {font-style: italic;}
    color:#fff;
 }
 
-<<<<<<< HEAD
-=======
-.hours_rap{
-    background-color: #7cc7ce5e;
-
-}
->>>>>>> 89cbb98b981cd2831f71fcc58e0ad6567a290359
 
 
  /** 
