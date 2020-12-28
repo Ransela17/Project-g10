@@ -1,14 +1,33 @@
 
-// Add active class to the current button (highlight it)
-var header = document.getElementById("main-nav").classList("nav-btn");
-var btns = classList('nav-btn');
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
-  });
-}
+
+// ----------------------
+// Home Page - Gallery
+//-----------------------
+
+  // Modal Image Gallery
+  function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+    }
+
+
+  //quoteSlides JS
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("quoteSlides");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+  }
+    slides[slideIndex-1].style.display = "block";   
+  }
 
 // ----------------------
 // open studio
@@ -17,13 +36,11 @@ for (var i = 0; i < btns.length; i++) {
 
 
 function bigImg(x) {
-  x.style.height = "300px";
-  x.style.width = "290px";
+  x.style.height = "270px";
 }
 
 function normalImg(x) {
-  x.style.height = "220px";
-  x.style.width = "220px";
+  x.style.height = "240px";
 }
 
 // ----------------------

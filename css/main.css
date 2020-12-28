@@ -111,6 +111,8 @@ ul.main-nav li a:hover:not(.active) {
 
 .fab, .fa, .fas{
     font-size: x-large;
+    place-self: center;
+
 }
 
 li a p{
@@ -120,7 +122,7 @@ li a p{
 
 
 .hero{
-    background: url(images/Background1.jpg);
+    background:#151515 url(../images/Background1.jpg);
     height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -128,20 +130,28 @@ li a p{
     background-attachment: fixed;
     min-height: 400px;
 }
-
+.ovarlay{
+    background-color: black;
+    opacity: 0.4;
+    width: 100%;
+    height: 451px;
+    position: absolute;
+    top: 93;
+}
 .row.header{
     display: flex;
-    height: inherit;
+    height: 99%;
     align-items: baseline;
-    width: 85%;
+    width: 100%;
     float: left;
+    padding-right: 10%;
 }
 
 h1.page-title {
-    float: right;
-    border-bottom: solid;
-    width: 13%;
     margin-top: auto;
+    position: relative;
+    display: inline-block;
+    color: white;
 }
 
 .load{
@@ -182,11 +192,24 @@ h1.page-title {
 
 @keyframes slide {
     0% {
-        background-image: url('images/bg-width.jpg');
+        background-image: url('../images/bg-width.jpg');
     }
     20% {
-        background-image: url('images/home-slider.jpg');
+        background-image: url('../images/home-slider.jpg');
     }
+    40% {
+        background-image: url('../images/Background.jpg');
+    }
+    60% {
+        background-image: url('../images/Background1.jpg');
+    }
+    80%{
+        background-image: url('../images/Background2.jpg');
+    }
+    100%{
+
+    }
+
 }
 
  /** 
@@ -195,7 +218,7 @@ h1.page-title {
  * ------------------------------------------------------------------- 
  */
 footer {
-    height: 200px;
+    height: 220px;
     direction: rtl;
     display: flex;
     background-color: cadetblue;
@@ -322,8 +345,8 @@ i.fab.fa-arrow-left {
 }
 
 a.button:hover {
-    background-color: #4ca3af;
-    border: 2px solid blue;
+    background-color: #0f4675;
+    border: 2px solid #0f4675;
     color: white;
 }
 
@@ -413,6 +436,7 @@ a.button:hover {
 .services{
     width: 100%;
     text-align: center;
+    margin-top: 2%;
 }
 .title_services {
     border-bottom: solid;
@@ -436,6 +460,11 @@ a.button:hover {
     width: 25%;
     float: left;
 }
+.photo-col:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);   
+}
+
 
 .photo-col img {
     margin-bottom: -6px;
@@ -502,6 +531,7 @@ span.w3-button.w3-black.w3-xlarge.w3-display-topright {
     float: left;
     margin-top: 8%;
     margin-left: 5%;
+    z-index: 1;
   }
   
 /* Slides */
@@ -555,6 +585,11 @@ q {font-style: italic;}
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
+    padding-bottom: 40px;
+}
+
+.Title_about_page {
+    padding: 18px;
 }
 
 .Title_about_page h2{
@@ -562,7 +597,7 @@ q {font-style: italic;}
     font-weight: normal !important;
     width: 100%;
     margin-top: 20px;
-    padding-right: 20px;
+    text-align: center;
 }
 
 .Title_about_page h3{
@@ -571,17 +606,12 @@ q {font-style: italic;}
     color: #4ca3af;
     margin-bottom: 0%;
     padding-right: 20px;
-}
-
-.Title_about_page hr{
-    width: 100px;
-    float: right;
-    border-top: 1px solid #2f2f2f;
-    
+    text-align: center;
 }
 
 .TextRight{
-    width: 50%;
+    width: 55%;
+    align-self: center;
 }
 .TextRight p{
     font-style: normal !important;
@@ -590,8 +620,8 @@ q {font-style: italic;}
     direction: rtl;
     line-height: 28px;
     margin: 0 0 10px;
-    font-size: 18px;
-    width: 80%;
+    font-size: 24px;
+    width: 75%;
 }
 
 .aboutLeft img{
@@ -765,7 +795,7 @@ p.data {
 
 /**
 * ===================================================================
-* error 404
+* Error 404
 * ------------------------------------------------------------------- 
 */
 .error {
@@ -784,7 +814,7 @@ p.data {
 
   /**
 * ===================================================================
-* login and registration 
+* Login and Registration 
 * ------------------------------------------------------------------- 
 */
 *,:after,:before{box-sizing:border-box}
@@ -792,14 +822,16 @@ p.data {
 .clearfix:after{clear:both;display:block}
 a{color:inherit;text-decoration:none}
 
+
+
 .login-wrap{
-	width:100%;
+	margin: auto;
     margin-top: 40px;
-    margin-right: 430px;
+    margin-bottom: 40px;
 	max-width:500px;
 	min-height:600px;
 	position:relative;
-	background:url(images/Background22.jpg) no-repeat fixed center;
+	background:url(../images/Background22.jpg) no-repeat fixed center;
 	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
 }
 .login-html{
@@ -932,6 +964,7 @@ a{color:inherit;text-decoration:none}
 .foot-lnk{
     margin-bottom: 20px;
     text-align:center;
+    color: white;
 }
 
   /**
@@ -958,12 +991,14 @@ a{color:inherit;text-decoration:none}
 .wrap_imgs{
     display:flex;
     place-content: center;
+    padding-bottom: 40px;
+    height: 300px;
 }
 
 img.imgs {
-    padding: 18PX;
-    width: 212px;
-    height: 232px;
+    padding: 1%;
+    width: auto;
+    height: 240px;
 }
 
 .op_reg{
@@ -994,8 +1029,7 @@ img.imgs {
 }
 
 #reg:hover{
-    background: cadetblue;
-    color: black;
+    background-color: cadetblue;
 }
 
 #register{
@@ -1033,18 +1067,15 @@ section article h2{
     color: black;
 }
 
-.hover:hover{
-    color: dodgerblue;
-}
-
-.page-tetle:hover{
-    color: dodgerblue;
-}
   /**
 * ===================================================================
-* Application-making an appointment
+* Application
 * ------------------------------------------------------------------- 
 */
+
+.row_app{
+    height: 450px;
+}
 
 .appStore{ 
     width: 300px;
@@ -1086,7 +1117,7 @@ section article h2{
 
   /**
 * ===================================================================
-* beauty products
+* Beauty Products
 * ------------------------------------------------------------------- 
 */
 
@@ -1094,7 +1125,8 @@ section article h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#0f4675, #0f4675 50%,#fff 50%,#fff 100%);
+    background: linear-gradient(#0f4675, #0f4675 300px,#fff 50%,#fff 100%);
+    width: 100%;
 }
 
 .containerProducts{
