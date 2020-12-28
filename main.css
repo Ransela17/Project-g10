@@ -96,7 +96,7 @@ ul.main-nav {
     display: block;
     color: black;
     text-align: center;
-    padding: 36px 30px;
+    padding: 36px 20px;
     text-decoration: none;
 }
 
@@ -114,7 +114,7 @@ ul.main-nav li a:hover:not(.active) {
 
 
 .hero{
-    background: url(images/bg-width.jpg);
+    background: url(images/Background2.jpg);
     height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
