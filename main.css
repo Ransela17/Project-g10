@@ -64,13 +64,14 @@ body{
 .Logo{
     width: 25%;
     float: right;
-    text-align: right;
+    padding-right: 2%; 
+    margin: auto;
+    text-align: center;
+    padding: 10px 0;
 }
 
-img#logo {
-    width: 80%;
-    padding: 2% 22% 2% 0;
-
+#logo_img {
+    width: 60%;
 }
 
 .Header {
@@ -108,13 +109,18 @@ ul.main-nav li a:hover:not(.active) {
     background-color: #4ca3af;
 }
 
-.fa{
+.fab, .fa, .fas{
     font-size: x-large;
+}
+
+li a p{
+    padding: 0;
+    margin-top: 6%;
 }
 
 
 .hero{
-    background: url(images/Background2.jpg);
+    background: url(images/Background1.jpg);
     height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -202,12 +208,14 @@ footer .col-1 {
 }
 .logo{
     margin: auto;
-    padding: 50px 20px
+    padding: 50px 20px;
+    width: 87%;
 }
 
 footer .col-2 {
     width: 26%;
     text-align: center;
+    background-color: cadetblue;
 }
 
 footer .col-3 {
@@ -308,7 +316,7 @@ a.button {
     margin-left: 2%;
     margin-top: 2%;
 }
-i.fa.fa-arrow-left {
+i.fab.fa-arrow-left {
     font-size: 16px;
     float: left;
     padding-right: 30px;
