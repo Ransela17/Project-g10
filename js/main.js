@@ -9,3 +9,30 @@ for (var i = 0; i < btns.length; i++) {
   this.className += " active";
   });
 }
+
+// ----------------------
+// open studio
+//-----------------------
+
+
+
+function bigImg(x) {
+  x.style.height = "300px";
+  x.style.width = "290px";
+}
+
+function normalImg(x) {
+  x.style.height = "220px";
+  x.style.width = "220px";
+}
+
+
+
+function changepic1(x) {
+  x.src ="images/about-1.jpg" ;
+}
+
+function changpic2(x) {
+  x.src ="images/about-2.jpg";
+}
+
