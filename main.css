@@ -660,7 +660,7 @@ q {font-style: italic;}
  */
  .gallerycontainer{
     text-align: center;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 0px;
     display: flex;
   }
