@@ -1,10 +1,14 @@
-<link rel="stylesheet" href="{{ url_for('main_menu.static', filename='css/main-menu.css') }}"/>
+<link rel="stylesheet" href="{{ url_for('Header.static', filename='css/main-menu.css') }}"/>
 
 {%
     set menu_items = {
         'homepage': '/',
-        'catalog': url_for('catalog.index'),
         'about': url_for('about.index'),
+        'Gallery': url_for('Gallery.index'),
+        'OpenStudio': url_for('OpenStudio.index'),
+        'beautyProducts': url_for('beautyProducts.index'),
+        'Application': url_for('Application.index'),
+        'Contact': url_for('Contact.index')
     }
 %}
 
